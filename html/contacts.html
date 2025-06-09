@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="/css/contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header>
+        <div class="containerr">
+                <div class="logo-container">
+                    <h1>Portfolio</h1>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about_me.html">About</a></li>
+                    <li><a href="my_works.html">Works</a></li>
+                    <li><a href="contacts.html" class="active">Contact</a></li>
+                    
+                    <li><a href="https://www.facebook.com/profile.php?id=100084951915940&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/junee_eeel?igsh=MWVnamwwb3hsZnQycA=="><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>My Location</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Building 19 Unit 304 Lingunan, Valenzuela City, Philippines</p>
+                <p><i class="fas fa-phone-alt"></i> 09458959416</p>
+                <p><i class="fas fa-envelope"></i> jonelpaylande0403@gmail.com</p>
+            </div>
+            <div class="map-container">
+                <img src="/image/maps.png" alt="" width=600; height=400;><br>
+            </div> <br>
+            
+            <div class="additional-features">
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portfolio. All rights reserved.  Web Development By JONEL PAYLANDE</p>
+        </div>
+    </footer>
+
+    <script>
+        function validateForm() {
+        }
+    </script>
+
+</body>
+</html>

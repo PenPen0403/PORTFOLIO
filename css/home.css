@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3; /* Beige background */
+    color: #333; /* Dark text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 36px;
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    background-color: #ffffff; /* Light header */
+    padding: 20px 0;
+    color: #c69c6d; /* Soft brown accent */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: relative; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+nav a.active,
+nav a:hover {
+    font-weight: 500;
+    border-bottom-color: #c69c6d;
+}
+
+.social-icons a,
+.social-icon {
+    color: #333;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.about-section {
+    background-color: #fefefe; 
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.bio {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highlight {
+    font-size: 24px;
+    font-weight: 600;
+    color: #b58900;
+    animation: none; /* Remove animation for simplicity */
+}
+
+.bio h1 {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.bio h1 span {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.bio p {
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.my-works-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 18px;
+    border: 2px solid #c69c6d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.my-works-button:hover {
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
